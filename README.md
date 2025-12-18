@@ -90,3 +90,4 @@ C'est une excellente pratique pour tes projets IPSSI, cela montre que ton code e
 
 Souhaites-tu que je t'aide pour une autre fonctionnalité sur ton Dashboard ?
 ```
+Projet réalisé avec l'aide de l'outil d'intelligence Artificiel GEMINI by Google.
