@@ -22,10 +22,10 @@ backend/
 │   ├── routes/         # Définition des points d'entrée API
 │   └── services/       # Logique métier et appels Prisma (ORM)
 └── server.js           # Point d'entrée du serveur Express
-
+|
 frontend/
 └── my-app/src/App.js   # Interface utilisateur React unique
-
+```
 ⚙️ Installation et Lancement
 1. Prérequis
 
@@ -34,6 +34,7 @@ frontend/
     Un terminal ouvert dans le dossier du projet.
 
 2. Configuration du Backend
+```
 cd backend
 npm install
 
@@ -43,14 +44,15 @@ npx prisma db push
 
 # Lancer le serveur (port 5000)
 npm start
-
+```
 3. Configuration du Frontend
+```
 cd frontend/my-app
 npm install
 
 # Lancer l'interface (port 3000)
 npm start
-
+```
 💡 Fonctionnalités
 
     Génération Aléatoire : Création instantanée d'utilisateurs avec des noms et emails réalistes via Faker.js.
@@ -76,6 +78,7 @@ Si vous rencontrez des erreurs de type URL_INVALID ou P1012 avec Prisma :
     Utilisation de Helmet pour protéger les headers HTTP.
 
     Gestion des CORS pour sécuriser les échanges entre le frontend et le backend.
+```
 ---
 
 ### Comment l'utiliser ?
@@ -86,3 +89,4 @@ Si vous rencontrez des erreurs de type URL_INVALID ou P1012 avec Prisma :
 C'est une excellente pratique pour tes projets IPSSI, cela montre que ton code est documenté et facile à reprendre par quelqu'un d'autre !
 
 Souhaites-tu que je t'aide pour une autre fonctionnalité sur ton Dashboard ?
+```
