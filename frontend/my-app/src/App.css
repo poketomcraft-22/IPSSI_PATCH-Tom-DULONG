@@ -1,0 +1,16 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #f9f9f9;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* ... etc pour tous les styles */
